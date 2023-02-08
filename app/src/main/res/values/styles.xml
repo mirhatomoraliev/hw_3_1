@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Send_massage" parent="Base.Widget.AppCompat.EditText">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:padding">12dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">6dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="backgroundTint">@color/green</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

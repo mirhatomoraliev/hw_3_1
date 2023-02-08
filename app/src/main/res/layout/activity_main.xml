@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/et_gmail"
+        android:drawableStart="@drawable/ic_post"
+        android:hint="@string/gmail"
+        style="@style/Send_massage"/>
+
+    <EditText
+        android:inputType="text"
+        android:layout_marginVertical="12dp"
+        android:id="@+id/et_theme"
+        android:drawableStart="@drawable/ic_row"
+        android:hint="@string/theme"
+        style="@style/Send_massage"/>
+    <EditText
+
+        android:inputType="text"
+        android:id="@+id/et_massage"
+        android:drawableStart="@drawable/ic_massage"
+        android:hint="@string/massage"
+        style="@style/Send_massage"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:text="Send"
+        android:layout_marginTop="120dp"
+        style="@style/Button"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:text="Next"
+        android:layout_marginTop="240dp"
+        style="@style/Button"/>
+
+
+</LinearLayout>
