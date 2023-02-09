@@ -31,6 +31,7 @@
         style="@style/Send_massage"/>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_send"
         android:text="Send"
         android:layout_marginTop="120dp"
         style="@style/Button"/>
